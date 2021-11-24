@@ -19,22 +19,35 @@
 
 
 .nav-li{
+    text-align: center;
+
     display: inline-block;
 }
+
+
+
 
 .nav-li:not(:last-of-type){
     margin-right: 90px;
 }
 
 .nav-link{
+    display: inline-block;
+    padding: 13px 30px 13px 30px;
     color: black;
+    text-align: center;
     text-decoration: none;
+    transition: 1s;
     
 }
 
 .nav-link:hover{
-    color: #FA4A0C;
-}
+    background-color: #FA4A0C;
+    border-radius: 20px;
+    color: #fff;
+    transition: ease 0.5s;
+} 
+
 
 .app{
     background-image: url('../img/bg_1.png');
@@ -68,33 +81,30 @@
 }
 
 .button{
-    width:  236px;
-    height: 68px;
+    width:  336px;
+    height: 100px;
     color: white;
     border-radius: 30px;
     font-size: 24px;
     line-height: 36px;
-}
-
-.button:first-of-type{
-    background-color: #FA4A0C;
-    border: 1px solid #FA4A0C;
-    margin-right: 67px;
-}
-
-.button:first-of-type:hover{
-    
-    background-color: #Fff;
+    background: none;
     border: 1px solid #Fff;
-    color: #FA4A0C;
     margin-right: 67px;
+    transform: scale(0.6);
     transition: all 500ms ease;
 }
 
 
-.button:last-of-type{
-    background: none;
+
+
+
+
+.button:hover{
+    background: white;
     border: 1px solid white;
+    color: #FA4A0C;
+    transform: scale(0.7);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.6);
 }
 
 .title-for-second_section{
@@ -253,7 +263,7 @@
 	-ms-transition: all 0.8s ease 0.2s;
 	-o-transition: all 0.8s ease 0.2s;
 
-	-webkit-box-shadow: 0 0 40px rgba(250, 75, 12, 0.6);
+	-webkit-box-shadow: 0 0 40px rgba(250, 75, 1, 0.6);
 	box-shadow: 0 0 40px rgba(250, 75, 12, 0.6);
 
 }
