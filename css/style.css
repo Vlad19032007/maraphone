@@ -18,7 +18,7 @@
     align-items: center;
     margin: 20px auto;
 }
-
+/*
 @media (max-width: 1150px) {
     .header {
         width: 1000px;
@@ -30,6 +30,7 @@
         width: 850px;
     }
 }
+*/
 
 .nav_li {
     display: inline-block;
@@ -90,13 +91,13 @@
     line-height: 38px;
     margin-bottom: 54px;
 }
-
+/*
 @media (max-width: 228px) {
     .app-text {
         width: 100px;
     }
 }
-
+*/
 /***.button {
     font-family: 'Montserrat', sans-serif;
     width: 236px;
@@ -206,13 +207,13 @@
     line-height: 38px;
     margin-top: 20px;
 }
-
+/*
 @media (max-width: 238px) {
     .app2-pretitle {
         width: 100%;
     }
 }
-
+*/
 .btn-2 {
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
@@ -248,25 +249,25 @@
     margin-top: 56px;
     margin-bottom: 70px;
 }
-
+/*
 @media (max-width: 1135px) {
     .mobile div img {
         margin-left: 50px;
     }
 }
-
+*/
 .mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+/*
 @media (max-width: 1134px) {
     div img {
         margin-right: 50px;
     }
 }
-
+*/
 .mobile-pretitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -274,13 +275,13 @@
     line-height: 36px;
     color: #FA4A0C;
 }
-
+/*
 @media (max-width: 1134px) {
     .mobile-prewrapper {
         margin-left: 50px;
     }
 }
-
+*/
 .mobile-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -290,12 +291,13 @@
     margin-top: 30px;
     margin: 17px auto 23px;
 }
-
+/*
 @media (max-width: 1134px) {
     div h3.mobile-title {
         margin-right: 50px;
     }
 }
+*/
 
 .mobile-text {
     font-family: 'Montserrat', sans-serif;
@@ -586,4 +588,84 @@
     opacity: 1;
     transition: all 1.5s;
     transform: translateY(0%);
+}
+
+@media (max-width: 1024px) {
+
+
+}
+
+@media (max-width: 500px) {
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .nav_li{
+        display: none;
+    }
+
+    .app{
+        display: flex;
+        flex-direction: column;
+        padding: 100px 20px;
+    }
+    .app-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-pretitle .app-text{
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    .container{
+        width: 100%;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mobile-2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .mobile-pretitle, .mobile-title, .mobile-text, .mobile-text-2, .mobile-title-2{
+        text-align: center;
+    }
+    .img{
+        margin-top: 60px;
+        padding: 0;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .credits{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .text{
+        margin: 30px auto;
+        padding: 0;
+        text-align: center;
+    }
 }
